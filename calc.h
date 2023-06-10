@@ -3,6 +3,8 @@
 #define CALC_H
 
 #include <QMainWindow>
+#include <QRegularExpressionValidator>
+#include <QRegularExpression>
 
 
 
@@ -21,6 +23,11 @@ public:
 
 private slots:
     void on_pushButton_clicked();
+    void actions();
+
+    void on_lineEdit_returnPressed();
+
+    void on_lineEdit_2_returnPressed();
 
 private:
     Ui::calc *ui;

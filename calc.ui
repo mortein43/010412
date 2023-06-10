@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>826</width>
+    <height>469</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -86,9 +86,9 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>480</x>
+      <x>500</x>
       <y>70</y>
-      <width>91</width>
+      <width>321</width>
       <height>21</height>
      </rect>
     </property>
@@ -98,16 +98,16 @@
      </font>
     </property>
     <property name="text">
-     <string>Результат</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>200</x>
+      <x>110</x>
       <y>120</y>
-      <width>411</width>
-      <height>51</height>
+      <width>501</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="font">
@@ -116,7 +116,7 @@
      </font>
     </property>
     <property name="text">
-     <string>Error</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton">
@@ -124,18 +124,52 @@
      <rect>
       <x>420</x>
       <y>70</y>
-      <width>41</width>
+      <width>71</width>
       <height>21</height>
      </rect>
     </property>
+    <property name="sizeIncrement">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
     <property name="font">
      <font>
-      <pointsize>6</pointsize>
+      <pointsize>9</pointsize>
      </font>
     </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::DefaultContextMenu</enum>
+    </property>
     <property name="text">
-     <string>----
-----</string>
+     <string>Дорівнює</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>30</y>
+      <width>271</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>230</y>
+      <width>451</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;*Для використання дії &amp;quot;У двійкову&amp;quot; потрібно:&lt;br/&gt;1. Заповнити перше поле додатнім значенням.&lt;br/&gt;2. Вибрати дію &amp;quot;У двійкову&amp;quot;.&lt;br/&gt;3. Знаходячись у першому полі натиснути клаішу &amp;quot;Enter&amp;quot; або кнопку дорівнює.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
   </widget>
@@ -144,7 +178,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>826</width>
      <height>22</height>
     </rect>
    </property>
